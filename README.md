@@ -4,7 +4,9 @@ This project is my personal website as a photographer.
 
 II. File list
 ------------
+README.md
 index.html
+style.css
 
 III. Design
 ------------
