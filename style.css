@@ -1,4 +1,36 @@
 body{
     background-color: black;
     font-family: Open Sans;
+    color: white;
+    margin-top: 40px;
+    margin-left: 5%;
+}
+
+header{
+    display: grid;
+    column-gap: 4%;
+    grid-template-columns: 30% 15% 30% 10%;
+    grid-template-rows: 400px 400px;
+}
+
+.name{
+    font-size: 100px;
+    font-weight: 600;
+}
+
+.description{
+    color: #F6F4ED;
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 170px;
+}
+
+.navigation, a:link, a:visited {
+    text-decoration: none;
+    color: #F6F4ED;
+}
+
+.menu{
+    transform: rotate(-90deg);
+    margin-top: 130px;
 }
