@@ -36,13 +36,21 @@ header{
     margin-bottom: 150px;
 }
 
-.photos_block{
+.photos_block1{
     display: grid;
     column-gap: 13px;
     grid-template-columns: 39.3% 23.5% 30%;
-    grid-template-rows: 780px 780px;
+    grid-template-rows: 657px;
+    margin-bottom: 13px;
 }
 
 .two_pics img + img{
     margin-top: 12px;
+}
+
+.photos_block2{
+    display: grid;
+    column-gap: 13px;
+    grid-template-columns: 25% 28.5% 36%;
+    grid-template-rows: 657px;
 }
