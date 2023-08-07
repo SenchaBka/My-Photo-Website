@@ -2,14 +2,14 @@ body{
     background-color: black;
     font-family: Open Sans;
     color: white;
-    margin-top: 40px;
-    margin-left: 5%;
+    width: 90%;
+    margin: 40px auto;
 }
 
 header{
     display: grid;
     column-gap: 4%;
-    grid-template-columns: 30% 15% 30% 10%;
+    grid-template-columns: 30% 15% 33% 15%;
     grid-template-rows: 400px 400px;
 }
 
@@ -28,9 +28,21 @@ header{
 .navigation, a:link, a:visited {
     text-decoration: none;
     color: #F6F4ED;
+    margin-top: 110px;
 }
 
 .menu{
     transform: rotate(-90deg);
-    margin-top: 130px;
+    margin-bottom: 150px;
+}
+
+.photos_block{
+    display: grid;
+    column-gap: 13px;
+    grid-template-columns: 39.3% 23.5% 30%;
+    grid-template-rows: 780px 780px;
+}
+
+.two_pics img + img{
+    margin-top: 12px;
 }
