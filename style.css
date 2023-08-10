@@ -55,7 +55,7 @@ header{
     margin-bottom: 180px;
 }
 
-#people{
+.category_block{
     display: grid;
     grid-template-columns: 25% 75%;
     width: 100%;
@@ -73,7 +73,7 @@ header{
 }
 
 .category_right{
-    margin-top: 530px;
+    margin-top: 665px;
     transform: rotate(90deg);
     transform-origin: top right;
     text-align: center;
