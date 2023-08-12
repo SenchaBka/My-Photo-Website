@@ -114,3 +114,21 @@ header{
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
 }
+
+
+footer{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    margin-top: 280px;
+}
+
+.poshta{
+    font-size: 65px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.links{
+    text-align: center;
+    font-size: 50px;
+}
