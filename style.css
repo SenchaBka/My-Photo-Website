@@ -140,6 +140,7 @@ people_header{
     display: grid;
     grid-template-columns: 40% 15% 27% 3%;
     column-gap: 5%;
+    margin-bottom: 170px;
 }
 
 .logo{
@@ -156,4 +157,30 @@ nav{
     text-decoration: none;
     color: #F6F4ED;
     margin-top: 160px;
+}
+
+.people_photo_block1{
+    display: grid;
+    grid-template-columns: 60% 37%;
+    column-gap: 3%;
+}
+
+.people_photos_ls{
+    display: grid;
+    grid-template-columns: 60% 39%;
+    grid-template-rows: 335px 335px;
+    column-gap: 3%;
+    row-gap: 3%;
+}
+
+.people_photos_ls div{
+    display: flex;
+}
+
+#left_img{
+    margin-left: -90%;
+}
+
+#right_img{
+    margin-left: 7%;
 }
