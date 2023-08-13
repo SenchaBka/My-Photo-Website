@@ -15,14 +15,14 @@ body{
     margin: 40px auto;
 }
 
-header{
+home_header{
     display: grid;
     column-gap: 4%;
     grid-template-columns: 30% 15% 33% 15%;
     grid-template-rows: 400px 400px;
 }
 
-#name{
+.title{
     font-size: 100px;
     font-weight: 600;
 }
@@ -132,4 +132,28 @@ footer{
 .links{
     text-align: center;
     font-size: 50px;
+}
+
+/*People page*/
+
+people_header{
+    display: grid;
+    grid-template-columns: 40% 15% 27% 3%;
+    column-gap: 5%;
+}
+
+.logo{
+    font-size: 27px;
+    font-weight: 600;
+    color:#F6F4ED;
+}
+
+.small_hd_img{
+    margin-top: 100px;
+}
+
+nav{
+    text-decoration: none;
+    color: #F6F4ED;
+    margin-top: 160px;
 }
