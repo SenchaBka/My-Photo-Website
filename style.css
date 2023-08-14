@@ -178,3 +178,19 @@ nav{
 #right_img{
     margin-left: 7%;
 }
+
+.story_block{
+    display: grid;
+    grid-template-columns: 40% 55%;
+    column-gap: 5%;
+    margin-top: 80px;
+    color: #F6F4ED;
+    font-size: 19px;
+    font-weight: 100;
+}
+
+.story_block p{
+    text-align: center;
+    width: 40%;
+    margin-top: 30%;
+}
