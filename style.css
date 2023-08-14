@@ -194,3 +194,9 @@ nav{
     width: 40%;
     margin-top: 30%;
 }
+
+.nature_photo_block1{
+    display: grid;
+    grid-template-columns: 37% 60%;
+    column-gap: 1.7%;
+}
