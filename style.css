@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 
-/*laptop version*/
+/*desktop version*/
 
 @-webkit-keyframes glow {
     from {
@@ -291,10 +291,79 @@ nav{
     .photo_hands{
         order: 5;
         width: 75%;
+        margin-bottom: 70px;
     }
     
     /*main block*/
+    .photos_block1{
+        display: none;
+    }
+    
+    .photos_block2{
+        display: none;
+    }
 
+    .M_photos_blocks {
+    }
+
+    .M_photos_block {
+        float: left;
+        width: 48%;
+        margin-right: 1%;
+        margin-left: 1%;
+        margin-bottom: 100px;
+    }
+    
+    .category_block{
+        display: grid;
+        grid-template-columns: 25% 75%;
+        width: 100%;
+        height: 300px;
+        margin-bottom: 40px;
+    }
+    
+    .category_left{
+        margin-top: 320px;
+        transform: rotate(270deg);
+        transform-origin: top left;
+        text-align: center;
+        font-size: 105px;
+        font-weight: 600;
+    }
+    
+    .category_right{
+        margin-top: 665px;
+        transform: rotate(90deg);
+        transform-origin: top right;
+        text-align: center;
+        font-size: 105px;
+        font-weight: 600;
+    }
+    
+    .appointment_block{
+        margin-top: 200px;
+        font-size: 105px;
+        font-weight: 600;
+    }
+    
+    .description_2{
+        color: #F6F4ED;
+        font-size: 19px;
+        font-weight: 100;
+        width: 20%;
+        height: 100px;
+        margin-top: 50px;
+        margin-left: 20%;
+    }
+    
+    .appointment{
+        color: #0210DC;
+        text-align: right;
+        margin-top: -150px;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+    }
     /*footer block*/
 
     footer{
