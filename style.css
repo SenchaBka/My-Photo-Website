@@ -319,33 +319,38 @@ nav{
     }
     
     .appointment_block{
-        display: none;
-        margin-top: 200px;
-        font-size: 105px;
-        font-weight: 600;
+        margin-top: 50px;
+        font-size: 34px;
     }
     
     .description_2{
-        color: #F6F4ED;
-        font-size: 19px;
-        font-weight: 100;
-        width: 20%;
-        height: 100px;
-        margin-top: 50px;
-        margin-left: 20%;
+        font-size: 13px;
+        width: 65%;
+        margin-top: 10px;
+        margin-left: 15%;
     }
     
     .appointment{
-        color: #0210DC;
-        text-align: right;
-        margin-top: -150px;
-        -webkit-animation: glow 1s ease-in-out infinite alternate;
-        -moz-animation: glow 1s ease-in-out infinite alternate;
-        animation: glow 1s ease-in-out infinite alternate;
+        margin-top: 0px;
     }
+
     /*footer block*/
 
     footer{
         display: none;
+        grid-template-columns: 80% 20%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    
+    .poshta{
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 25px;
+    }
+    
+    .links{
+        text-align: center;
+        font-size: 13px;
     }
 }
