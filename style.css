@@ -148,6 +148,7 @@ footer{
 .links{
     text-align: center;
     font-size: 50px;
+    margin-top: -30px;
 }
 
 /*People page*/
@@ -337,20 +338,21 @@ nav{
     /*footer block*/
 
     footer{
-        display: none;
+        display: grid;
         grid-template-columns: 80% 20%;
-        margin-top: 50px;
-        margin-bottom: 20px;
+        margin-top: 60px;
+        margin-bottom: 30px;
     }
     
     .poshta{
         font-size: 18px;
-        font-weight: 500;
         margin-top: 25px;
+        font-weight: 500;
     }
     
     .links{
         text-align: center;
         font-size: 13px;
+        margin-top: 10px;
     }
 }
