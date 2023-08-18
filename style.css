@@ -130,13 +130,13 @@ body{
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
+    margin-bottom: 300px;
 }
 
 footer{
     display: grid;
     grid-template-columns: 80% 20%;
-    margin-top: 300px;
-    margin-bottom: 70px;
+    grid-template-rows: 200px;
 }
 
 .poshta{
@@ -175,6 +175,7 @@ nav{
     color: #F6F4ED;
     margin-top: 25px;
 }
+
 
 .people_photo_block1{
     display: grid;
@@ -357,5 +358,79 @@ nav{
         text-align: center;
         font-size: 13px;
         margin-top: 10px;
+    }
+
+    /*People, Nature, Urban pages*/
+    .people_header{
+        display: none;
+        grid-template-columns: 38% 15% 27% 12%;
+        grid-template-rows: 615px;
+        column-gap: 4%;
+        margin-bottom: 170px;
+    }
+    
+    .small_hd_img{
+        margin-top: 55px;
+        text-align: right;
+    }
+    
+    .title{
+        text-align: right;
+    }
+    
+    nav{
+        text-decoration: none;
+        color: #F6F4ED;
+        margin-top: 25px;
+    }
+    
+    
+    .people_photo_block1{
+        display: none;
+        grid-template-columns: 60% 37%;
+        column-gap: 3%;
+    }
+    
+    .people_photos_ls{
+        display: none;
+        grid-template-columns: 60% 39%;
+        grid-template-rows: 335px 335px;
+        column-gap: 3%;
+        row-gap: 3%;
+    }
+    
+    .people_photos_ls div{
+        display: flex;
+    }
+    
+    #left_img{
+        margin-left: -90%;
+    }
+    
+    #right_img{
+        margin-left: 7%;
+    }
+    
+    .story_block{
+        display: none;
+        grid-template-columns: 40% 55%;
+        column-gap: 5%;
+        margin-top: 80px;
+        color: #F6F4ED;
+        font-size: 19px;
+        font-weight: 100;
+    }
+    
+    .story_block p{
+        display: none;
+        text-align: center;
+        width: 40%;
+        margin-top: 30%;
+    }
+    
+    .nature_photo_block1{
+        display: none;
+        grid-template-columns: 37% 60%;
+        column-gap: 1.7%;
     }
 }
