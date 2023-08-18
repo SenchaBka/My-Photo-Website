@@ -35,7 +35,7 @@ body{
     height: 65%;
 }
 
-.title{
+.name, .title{
     font-size: 100px;
     font-weight: 600;
     color: white;
@@ -153,21 +153,27 @@ footer{
 
 /*People page*/
 
-people_header{
+.people_header{
     display: grid;
-    grid-template-columns: 40% 15% 27% 3%;
-    column-gap: 5%;
+    grid-template-columns: 38% 15% 27% 12%;
+    grid-template-rows: 615px;
+    column-gap: 4%;
     margin-bottom: 170px;
 }
 
 .small_hd_img{
-    margin-top: 100px;
+    margin-top: 55px;
+    text-align: right;
+}
+
+.title{
+    text-align: right;
 }
 
 nav{
     text-decoration: none;
     color: #F6F4ED;
-    margin-top: 160px;
+    margin-top: 25px;
 }
 
 .people_photo_block1{
@@ -221,11 +227,8 @@ nav{
 /*mobile version*/
 
 @media only screen and (max-width: 480px) {
+    /*Home page*/
 
-    body{
-        width: 90%;
-    }
-    
     /*header block*/
 
     .home_header{
