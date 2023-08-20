@@ -302,8 +302,13 @@ nav{
     .M_photos_block {
         display: block;
         float: left;
-        width: 48%;
-        margin: 60px 1% 60px;
+        width: 44%;
+        margin: 60px 3% 60px;
+    }
+
+    .M_photos_block img{
+        padding-top: 2px;
+        padding-bottom: 2px;
     }
     
     .categories{
@@ -365,13 +370,14 @@ nav{
     .people_header{
         display: flex;
         flex-direction: column;
+        margin-bottom: 0px;
     }
 
     nav{
         order: 1;
         margin-top: 0px;
         display: flex;
-        font-size: 10px;
+        font-size: 16px;
         margin-left: auto;
         margin-right: auto;
     }   
@@ -398,7 +404,7 @@ nav{
         font-size: 20px;
         font-weight: 300;
         order: 4;
-        font-size: 16px;
+        font-size: 14px;
         margin-top: 15px;
         width: 70%;
         margin-left: 30%;
@@ -416,28 +422,18 @@ nav{
     
     .people_photo_block1{
         display: none;
-        grid-template-columns: 60% 37%;
-        column-gap: 3%;
     }
-    
-    .people_photos_ls{
-        display: none;
-        grid-template-columns: 60% 39%;
-        grid-template-rows: 335px 335px;
-        column-gap: 3%;
-        row-gap: 3%;
+
+    .M_photos_block_1{
+        display: block;
+        float: left;
+        width: 44%;
+        margin: 10px 3% 60px;
     }
-    
-    .people_photos_ls div{
-        display: flex;
-    }
-    
-    #left_img{
-        margin-left: -90%;
-    }
-    
-    #right_img{
-        margin-left: 7%;
+
+    .M_photos_block_1 img{
+        padding-top: 2px;
+        padding-bottom: 2px;
     }
     
     .story_block{
