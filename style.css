@@ -365,6 +365,7 @@ nav{
     footer{
         display: grid;
         grid-template-columns: 80% 20%;
+        grid-template-rows: 80px;
         margin-top: 60px;
         margin-bottom: 30px;
     }
@@ -428,22 +429,25 @@ nav{
     }
 
     .Mpeople_hd_small{
+        display: block;
         order: 4;
-        text-align: left;
+        width: 94%;
+        margin: auto;
+        margin-bottom: 10px;
     }
     
     .people_photo_block1{
         display: none;
     }
 
-    .M_photos_block_1{
+    .M_photos_block{
         display: block;
         float: left;
         width: 44%;
-        margin: 10px 3% 20px;
+        margin: 40px 3% 35px;
     }
 
-    .M_photos_block_1 img{
+    .M_photos_block img{
         padding-top: 2px;
         padding-bottom: 2px;
     }
@@ -456,7 +460,6 @@ nav{
         column-gap: 7%;
         margin-top: 0px;
         font-size: 12.5px;
-        margin-bottom: 50px;
     }
     
     .story_block p{
