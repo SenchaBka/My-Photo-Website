@@ -165,7 +165,7 @@ footer{
     width: 100%;
 }
 
-.people_header{
+header{
     display: grid;
     grid-template-columns: 38% 15% 27% 12%;
     grid-template-rows: 615px;
@@ -383,7 +383,7 @@ nav{
     }
 
     /*People, Nature, Urban pages*/
-    .people_header{
+    header{
         display: flex;
         flex-direction: column;
         margin-bottom: 0px;
@@ -398,7 +398,7 @@ nav{
         margin-right: auto;
     }   
 
-    .people_header img{
+    header img{
         order: 2;
         margin-left: auto;
         width: 70%;
