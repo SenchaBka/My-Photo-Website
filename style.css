@@ -440,7 +440,7 @@ nav{
         display: block;
         float: left;
         width: 44%;
-        margin: 10px 3% 60px;
+        margin: 10px 3% 20px;
     }
 
     .M_photos_block_1 img{
@@ -449,25 +449,19 @@ nav{
     }
     
     .story_block{
-        display: none;
-        grid-template-columns: 40% 55%;
-        column-gap: 5%;
-        margin-top: 80px;
-        color: #F6F4ED;
-        font-size: 19px;
-        font-weight: 100;
+        width: 94%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 47% 47%;
+        column-gap: 7%;
+        margin-top: 0px;
+        font-size: 12.5px;
+        margin-bottom: 50px;
     }
     
     .story_block p{
-        display: none;
-        text-align: center;
-        width: 40%;
-        margin-top: 30%;
-    }
-    
-    .nature_photo_block1{
-        display: none;
-        grid-template-columns: 37% 60%;
-        column-gap: 1.7%;
+        text-align: left;
+        width: 100%;
+        margin-top: 0%;
     }
 }
