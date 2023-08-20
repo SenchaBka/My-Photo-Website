@@ -153,6 +153,18 @@ footer{
 
 /*People page*/
 
+.Mpeople_hd_small{
+    display: none;
+}
+
+.description_people{
+    color: #F6F4ED;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 150px;
+    width: 100%;
+}
+
 .people_header{
     display: grid;
     grid-template-columns: 38% 15% 27% 12%;
@@ -162,7 +174,7 @@ footer{
 }
 
 .small_hd_img{
-    margin-top: 55px;
+    margin-top: 115px;
     text-align: right;
 }
 
@@ -176,6 +188,9 @@ nav{
     margin-top: 25px;
 }
 
+.M_photos_block_1{
+    display: none;
+}
 
 .people_photo_block1{
     display: grid;
@@ -400,9 +415,6 @@ nav{
     }
 
     .description_people{
-        color: #F6F4ED;
-        font-size: 20px;
-        font-weight: 300;
         order: 4;
         font-size: 14px;
         margin-top: 15px;
