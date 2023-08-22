@@ -35,7 +35,7 @@ body{
     height: 65%;
 }
 
-.name, .title{
+.name, .title, .nature_title{
     font-size: 100px;
     font-weight: 600;
     color: white;
@@ -485,4 +485,43 @@ nav{
     }
 
     /*Nature page*/
+    .nature_header{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+
+    .nature_hd_big{
+        order: 2;
+        margin-right: auto;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .nature_title{
+        text-align: center;
+        font-size: 70px;
+        margin-top: -48px;
+    }
+    
+    .description_nature{
+        order: 4;
+        font-size: 17px;
+        margin-top: 15px;
+        width: 70%;
+        margin-right: 30%;
+        margin-bottom: -15px;
+    }
+
+    .Mnature_hd_small{
+        display: block;
+        order: 5;
+        width: 94%;
+        margin-top: -27px;
+        margin-bottom: 10px;
+        text-align: right;
+        z-index: -1;
+    }
+
+
 }
