@@ -256,6 +256,10 @@ nav{
     margin-bottom: 170px;
 }
 
+.Mnature_hd_small{
+    display: none;
+}
+
 /*mobile version*/
 
 @media only screen and (max-width: 480px) {
@@ -362,6 +366,7 @@ nav{
     .appointment_block{
         margin-top: 50px;
         font-size: 34px;
+        clear: both;
     }
     
     .description_2{
@@ -433,7 +438,7 @@ nav{
 
     .description_people{
         order: 4;
-        font-size: 14px;
+        font-size: 17px;
         margin-top: 15px;
         width: 70%;
         margin-left: 30%;
@@ -518,10 +523,11 @@ nav{
         order: 5;
         width: 94%;
         margin-top: -27px;
-        margin-bottom: 10px;
         text-align: right;
         z-index: -1;
     }
 
-
+    .nature_photo_block1{
+        display: none;
+    }
 }
