@@ -229,9 +229,10 @@ nav{
 }
 
 .story_block p{
-    text-align: center;
+    text-align: left;
     width: 40%;
-    margin-top: 30%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .nature_photo_block1{
