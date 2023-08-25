@@ -323,7 +323,9 @@ nav{
 
     .photo_hands{
         order: 5;
-        width: 75%;
+        width: 90%;
+        margin-bottom: 30px;
+        margin-top: -30px;
     }
     
     /*main block*/
