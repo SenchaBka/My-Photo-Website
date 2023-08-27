@@ -35,17 +35,23 @@ body{
     height: 65%;
 }
 
-.name, .title, .nature_title{
-    font-size: 100px;
+.name, .title, .nature_title, .app_title{
     font-weight: 600;
     color: white;
 }
 
-.description{
+.name, .title, .nature_title{
+    font-size: 100px;
+}
+
+.description, .app_description{
     color: #F6F4ED;
-    font-size: 20px;
     font-weight: 300;
+}
+
+.description{
     margin-top: 150px;
+    font-size: 20px;
 }
 
 .navigation, a:link, a:visited {
@@ -260,6 +266,24 @@ nav{
 
 .Mnature_hd_small{
     display: none;
+}
+
+/*Appoinment page*/
+.app_header{
+    display: block;
+}
+
+.app_title{
+    font-size: 85px;
+    width: 95%;
+    margin-left: auto;
+}
+
+.app_description{
+    width: 50%;
+    margin-left: auto;
+    font-size: 25px;
+    margin-bottom: 150px;
 }
 
 /*mobile version*/
