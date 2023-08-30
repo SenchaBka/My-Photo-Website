@@ -283,7 +283,78 @@ nav{
     width: 50%;
     margin-left: auto;
     font-size: 25px;
+    margin-bottom: 100px;
+}
+
+form{
+    width: fit-content;
+    margin: auto;
     margin-bottom: 150px;
+    font-weight: 400;
+}
+
+.question{
+    display: block;
+    margin: 70px 0px;
+}
+
+form label{
+    font-size: 30px;
+    color: white;
+    margin: 10px 0;
+}
+
+form input{
+    background-color: black;
+    font-size: 25px;
+    color: white;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 0;
+    border-bottom: 2px solid white;
+}
+
+input[type=text]:focus {
+    outline: 0;
+    border-bottom: 2px solid blue;
+}
+
+input[type=radio] {
+    width: 40px;
+    height: 40px;
+    margin: 30px 0;
+}
+
+.radio_question{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 10% 40% 10% 40%;
+    grid-template-rows: 100px;
+}
+
+.radio_question label{
+    margin-top: 28px;
+}
+
+.submission{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: auto;
+}
+
+input[type=submit], input[type=reset]{
+    width: 50%;
+    border: 0;
+    margin: auto;
+    padding: 18px;
+}
+
+input[type=submit]{
+    background-color: #0210DC;
 }
 
 /*mobile version*/
