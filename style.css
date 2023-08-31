@@ -662,11 +662,10 @@ input[type=submit]{
     box-sizing: border-box;
 }
 
-
 .calendar {
     height: max-content;
     width: max-content;
-    background-color: var(--white);
+    background-color: var(--light-body);
     border-radius: 30px;
     padding: 20px;
     position: relative;
