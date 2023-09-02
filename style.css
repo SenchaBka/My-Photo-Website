@@ -786,11 +786,15 @@ input[type=submit]{
     transition-delay: 0.6s;
 }
 
-.calendar-days div.curr-date,
-.calendar-days div.curr-date:hover {
+.calendar-days div.curr-date {
     background-color: var(--blue);
     color: var(--white);
     border-radius: 50%;
+}
+
+.calendar-days div.not-curr-date {
+    color: var(--color-txt);
+    background-color: var(--light-body);
 }
 
 .calendar-days div.curr-date span {

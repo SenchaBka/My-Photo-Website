@@ -45,6 +45,14 @@ generateCalendar = (month, year) => {
             }
         }
         calendar_days.appendChild(day)
+
+        day.onclick = () => {
+            day.classList.add('curr-date')
+        }
+
+        day.ondblclick = () => {
+            day.classList.add('not-curr-date')
+        }
     }
 }
 
