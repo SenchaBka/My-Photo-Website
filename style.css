@@ -848,7 +848,7 @@ input[type=submit]{
     height: 100%;
     top: 0;
     left: 0;
-    background-color: var(--bg-main);
+    background-color: white;
     padding: 20px;
     grid-template-columns: repeat(3, auto);
     gap: 5px;
