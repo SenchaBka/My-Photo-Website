@@ -35,7 +35,7 @@ body{
     height: 65%;
 }
 
-.name, .title, .nature_title, .app_title{
+.name, .title, .nature_title, .app_title, .thanks_title{
     font-weight: 600;
     color: white;
 }
@@ -44,7 +44,7 @@ body{
     font-size: 100px;
 }
 
-.description, .app_description, .note{
+.description, .app_description, .note, .thanks, .button{
     color: #F6F4ED;
     font-weight: 300;
 }
@@ -546,7 +546,7 @@ nav{
     display: block;
 }
 
-.app_title{
+.app_title, .thanks_title{
     font-size: 85px;
     width: 95%;
     margin-left: auto;
@@ -642,3 +642,34 @@ input[type=datetime-local]{
     padding: 4px;
     margin-bottom: 240px;
 }
+
+/*Thanks Page*/
+.thanks_title{
+    width: 45%;
+    margin: auto;
+}
+
+p.thanks{
+    font-size: 25px;
+    width: 38%;
+    text-align: right;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.button_block{
+    text-align: center;
+    margin: 75px 0 100px 0;
+}
+
+button{
+    font-family: "Open Sans";
+    font-weight: 300;
+    width: 200px;
+    border: 0;
+    padding: 18px;
+    background-color: #0210DC;
+    font-size: 26px;
+    color: white;
+}
+
