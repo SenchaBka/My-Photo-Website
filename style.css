@@ -44,7 +44,7 @@ body{
     font-size: 100px;
 }
 
-.description, .app_description{
+.description, .app_description, .note{
     color: #F6F4ED;
     font-weight: 300;
 }
@@ -628,4 +628,17 @@ input[type=submit], input[type=reset]{
 
 input[type=submit]{
     background-color: #0210DC;
+}
+
+p.note{
+    margin: 20px 0 6px 0;
+    font-size: 15px;
+}
+
+input[type=datetime-local]{
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    padding: 4px;
+    margin-bottom: 240px;
 }
