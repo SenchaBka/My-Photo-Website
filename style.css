@@ -546,6 +546,19 @@ nav{
     display: block;
 }
 
+.app_nav{
+    font-size: 20px;
+    font-weight: 300;
+    margin: auto;
+    width: fit-content;
+    margin-bottom: 50px;
+}
+
+.app_nav a{
+    padding: 150px;
+    width: fit-content;
+}
+
 .app_title, .thanks_title{
     font-size: 85px;
     width: 95%;
@@ -672,4 +685,5 @@ button{
     font-size: 26px;
     color: white;
 }
+
 
