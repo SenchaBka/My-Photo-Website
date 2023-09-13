@@ -666,7 +666,7 @@ input[type=datetime-local]{
 @media only screen and (max-width: 480px) {
 
     .app_nav{
-        margin: -35px auto 0px;
+        margin: -35px auto 20px;
     }
 
     .app_nav a{
@@ -675,8 +675,17 @@ input[type=datetime-local]{
     }
     
     .app_title, .thanks_title{
-        font-size: 25px;
+        font-size: 37px;
+        width: 84%;
+        margin-right: auto;
     }
+
+    .app_description{
+        width: 70%;
+        margin-right: 8%;
+        font-size: 14px;
+        margin-bottom: 0px;
+    }    
 }
 
 
