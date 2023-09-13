@@ -631,6 +631,19 @@ input[type=radio] {
     margin-top: 28px;
 }
 
+p.note{
+    margin: 20px 0 6px 0;
+    font-size: 15px;
+}
+
+input[type=datetime-local]{
+    background-color: white;
+    color: black;
+    font-size: 22px;
+    padding: 4px;
+    margin-bottom: 240px;
+}
+
 .submission{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -648,19 +661,6 @@ input[type=submit]{
     background-color: #0210DC;
 }
 
-p.note{
-    margin: 20px 0 6px 0;
-    font-size: 15px;
-}
-
-input[type=datetime-local]{
-    background-color: white;
-    color: black;
-    font-size: 22px;
-    padding: 4px;
-    margin-bottom: 240px;
-}
-
 /*mobile version*/
 
 @media only screen and (max-width: 480px) {
@@ -670,8 +670,8 @@ input[type=datetime-local]{
     }
 
     .app_nav a{
-        padding: 25px;
-        font-size: 14px;
+        padding: 27px;
+        font-size: 13px;
     }
     
     .app_title, .thanks_title{
@@ -686,6 +686,63 @@ input[type=datetime-local]{
         font-size: 14px;
         margin-bottom: 0px;
     }    
+
+    form{
+        width: 80%;
+        margin-bottom: 0px;
+    }
+    
+    .question{
+        margin: 40px 0px;
+    }
+    
+    form label{
+        font-size: 17px;
+        margin: 0px 0px;
+    }
+    
+    form input{
+        font-size: 15px;
+    }
+    
+    input[type=text] {
+        padding: 3px;
+        margin: 13px 0;
+        border-bottom: 1px solid white;
+    }
+    
+    input[type=text]:focus {
+        border-bottom: 1px solid blue;
+    }
+    
+    input[type=radio] {
+        width: 20px;
+        height: 20px;
+        margin: 30px 0;
+    }
+    
+    .radio_question{
+        margin-top: 0px;
+        grid-template-columns: 10% 50% 10% 40%;
+        grid-template-rows: 35px;
+        margin-bottom: -15px;
+    }
+
+    p.note{
+        margin: 5px 0 2px 0;
+        font-size: 7px;
+    }
+    
+    input[type=datetime-local]{
+        font-size: 12px;
+        padding: 1px;
+        margin-bottom: 100px;
+    }
+    
+    input[type=submit], input[type=reset]{
+        font-size: 12px;
+        padding: 12px;
+    }
 }
 
 
