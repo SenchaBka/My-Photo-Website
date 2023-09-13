@@ -2,90 +2,93 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width" />
-	<link rel="stylesheet" href="style.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
 	
 	<title>Make an Appointment</title>
 </head>
 
-<section class="app_header">
-	<nav class="app_nav">
+<body>
 
-			<a href="#categories">photos</a>
-			<a href="index.html">appointment</a>
-			<a href="index.html">contact</a>
-	</nav>
+	<section class="app_header">
+		<nav class="app_nav">
 
-	<div class="app_title">
-		GET A
-		<br>
-		PHOTOSHOOT
+				<a href="#categories">photos</a>
+				<a href="index.html">appointment</a>
+				<a href="index.html">contact</a>
+		</nav>
+
+		<div class="app_title">
+			GET A
+			<br>
+			PHOTOSHOOT
+			</div>
+
+		<p class="app_description">
+			Choose what type of photoshoot you want and fill out the form whenever you're
+			ready. If you're not sure about something, that's no problem.
+			We will discuss it together! 
+		</p>
+	</header>
+
+	<main>
+		<form action="thanks.html">
+			<div class="question">
+				<label for="subject">What kind of photoshoot?</label>
+				<input type="text" id="subject" name="subject" placeholder="Love Story"/>
+			</div>
+
+			<label for="number">Planned number of people on the photoshoot</label>
+			<div class="radio_question">
+				<input type="radio" id="number1" name="number"/>
+				<label for="number1">1</label>
+				<input type="radio" id="number2" name="number"/>
+				<label for="number2">2</label>
+				<input type="radio" id="number3" name="number"/>
+				<label for="number3">3-5</label>
+				<input type="radio" id="number4" name="number"/>
+				<label for="number4">6+</label>
+			</div>
+
+			<div class="question">
+				<label for="place">Planned place of the photoshoot</label>
+				<input type="text" id="place" name="place" placeholder="Toronto Library"/>
+			</div>
+
+			<div class="question">
+				<label for="date">
+					Planned date and time for the photoshoot
+				</label> <br>
+				<p class="note">
+					*Note that I may not be available on the date and time selected. Please wait for my reply to confirm.
+				</p>
+				<input type="datetime-local" id="date" name="date"/>
+			</div>
+
+			<div class="submission">
+				<input type="reset" value="Clear all" />
+				<input type="submit" value="Submit" />
+			</div>
+		</form>
+	</main>
+
+	<footer>
+		<div class="poshta">
+			<a href="mailto:arsenii.buriak@gmail.com">
+				ARSENII.BURIAK@GMAIL.COM
+			</a>
 		</div>
 
-	<p class="app_description">
-		Choose what type of photoshoot you want and fill out the form whenever you're
-		ready. If you're not sure about something, that's no problem.
-		We will discuss it together! 
-	</p>
-</header>
-
-<main>
-	<form action="thanks.html">
-		<div class="question">
-			<label for="subject">What kind of photoshoot?</label>
-			<input type="text" id="subject" name="subject" placeholder="Love Story"/>
+		<div class="links">
+			<a href='https://www.instagram.com/fovling_daffo/'>
+				INSTAGRAM 
+			</a> <br> <br>
+			<a href="https://www.linkedin.com/in/arsenii-buriak/">
+				LINKEDIN
+			</a>
 		</div>
-
-		<label for="number">Planned number of people on the photoshoot</label>
-		<div class="radio_question">
-			<input type="radio" id="number1" name="number"/>
-			<label for="number1">1</label>
-			<input type="radio" id="number2" name="number"/>
-			<label for="number2">2</label>
-			<input type="radio" id="number3" name="number"/>
-			<label for="number3">3-5</label>
-			<input type="radio" id="number4" name="number"/>
-			<label for="number4">6+</label>
-		</div>
-
-		<div class="question">
-			<label for="place">Planned place of the photoshoot</label>
-			<input type="text" id="place" name="place" placeholder="Toronto Library"/>
-		</div>
-
-		<div class="question">
-			<label for="date">
-				Planned date and time for the photoshoot
-			</label> <br>
-			<p class="note">
-				*Note that I may not be available on the date and time selected. Please wait for my reply to confirm.
-			</p>
-			<input type="datetime-local" id="date" name="date"/>
-		</div>
-
-		<div class="submission">
-			<input type="reset" value="Clear all" />
-			<input type="submit" value="Submit" />
-		</div>
-	</form>
-</main>
-
-<footer>
-	<div class="poshta">
-		<a href="mailto:arsenii.buriak@gmail.com">
-			ARSENII.BURIAK@GMAIL.COM
-		</a>
-	</div>
-
-	<div class="links">
-		<a href='https://www.instagram.com/fovling_daffo/'>
-			INSTAGRAM 
-		</a> <br> <br>
-		<a href="https://www.linkedin.com/in/arsenii-buriak/">
-			LINKEDIN
-		</a>
-	</div>
-</footer>
+	</footer>
 
 </body>
 </html>  
