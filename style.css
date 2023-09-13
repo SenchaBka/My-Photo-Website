@@ -776,4 +776,25 @@ button{
     color: white;
 }
 
+/*mobile version*/
+@media only screen and (max-width: 480px) {
+    .thanks_title{
+        width: 75%;
+    }
 
+    p.thanks{
+        font-size: 13px;
+        width: 50%;
+        margin: 10px 10% 0 auto;
+    }
+
+    .button_block{
+        margin: 40px 0 200px 0;
+    }
+    
+    button{
+        width: 140px;
+        padding: 11px 20px;
+        font-size: 14px;
+    }
+}
