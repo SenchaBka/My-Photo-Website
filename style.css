@@ -75,6 +75,10 @@ body{
     height: 590px;
 }
 
+.photo_me img{
+    margin-top: 0px;
+}
+
 .M_photos_block{
     display: none;
 }
@@ -542,6 +546,8 @@ nav{
 }
 
 /*Appoinment page*/
+
+/*desktop version*/
 .app_header{
     display: block;
 }
@@ -549,9 +555,8 @@ nav{
 .app_nav{
     font-size: 20px;
     font-weight: 300;
-    margin: auto;
+    margin: 60px auto 50px;
     width: fit-content;
-    margin-bottom: 50px;
 }
 
 .app_nav a{
@@ -655,6 +660,13 @@ input[type=datetime-local]{
     padding: 4px;
     margin-bottom: 240px;
 }
+
+/*mobile version*/
+
+@media only screen and (max-width: 480px) {
+
+}
+
 
 /*Thanks Page*/
 .thanks_title{
