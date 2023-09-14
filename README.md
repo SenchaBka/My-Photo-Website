@@ -23,4 +23,5 @@ This website does not require any configuration.
 IV. References
 ------------
 This website design was created by a wonderful graphic designer - Liza Mak-Mak.
-Her linkedin: https://www.linkedin.com/in/liza-mak-mak/ 
+Her Linkedin profile:
+https://www.linkedin.com/in/liza-mak-mak/ 
