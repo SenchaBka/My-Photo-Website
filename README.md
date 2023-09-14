@@ -1,6 +1,8 @@
 My Personal Website as a Photographer
+------------
 
 Table of contents
+------------
 I. Description
 II. Requirements
 III. Configuration
