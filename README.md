@@ -1,13 +1,24 @@
-I. Project description:
-------------
-This project is my personal website as a photographer.
+My Personal Website as a Photographer
 
-II. File list
-------------
-README.md
-index.html
-style.css
+Table of contents
+I. Description
+II. Requirements
+III. Configuration
+IV. References
 
-III. Design
+I. Description
 ------------
-Website design was created by my wonderful girlfriend — Liza Mak-Mak. 
+This website was created to introduce me as a photographer to future clients or just to people into photography with my photo works. Also, this website can be used to book an appointment for a photoshoot, contact me by email, or check out my other social media accounts.
+
+II. Requirements
+------------
+This website does not require the installation of any external software.
+
+III. Configuration
+------------
+This website does not require any configuration.
+
+IV. References
+------------
+This website design was created by a wonderful graphic designer - Liza Mak-Mak.
+Her linkedin: https://www.linkedin.com/in/liza-mak-mak/ 
