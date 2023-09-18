@@ -157,7 +157,7 @@ footer{
     grid-template-rows: 200px;
 }
 
-.poshta{
+#poshta{
     font-size: 65px;
     font-weight: 600;
     margin-top: 25px;
@@ -169,7 +169,7 @@ footer{
     margin-top: -30px;
 }
 
-    /*mobile version*/
+/*mobile version*/
 @media only screen and (max-width: 480px) {
 
     .home_header{
@@ -296,7 +296,7 @@ footer{
         margin-bottom: 30px;
     }
     
-    .poshta{
+    #poshta{
         font-size: 18px;
         margin-top: 25px;
         font-weight: 500;
@@ -420,7 +420,7 @@ nav{
     display: none;
 }
 
-/*mobile version*/
+/*mobile versions*/
 
 @media only screen and (max-width: 480px) {
     /*People, Nature, Urban pages*/
