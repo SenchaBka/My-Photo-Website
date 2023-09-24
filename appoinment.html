@@ -32,7 +32,7 @@
 	</header>
 
 	<main>
-		<form action="thanks.html">
+		<form method='post' action="email.php">
 			<div class="question">
 				<label for="subject">What kind of photoshoot?</label>
 				<input type="text" id="subject" name="subject" placeholder="Love Story"/>
@@ -63,6 +63,11 @@
 					*Note that I may not be available on the date and time selected. Please wait for my reply to confirm.
 				</p>
 				<input type="datetime-local" id="date" name="date"/>
+			</div>
+
+			<div class="question">
+				<label for="additional_info">Something else?</label>
+				<input type="text" id="additional_info" name="additional_info" placeholder="Type in any additional details.."/>
 			</div>
 
 			<div class="submission">
