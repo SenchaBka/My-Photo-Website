@@ -1,8 +1,11 @@
 <?php
 
+    $message_sent = false;
+
     if(isset($_POST['name']) && !empty($_POST['name'])){
 
         $name = filter_input(INPUT_POST, "name", FILTER_SANITIZE_SPECIAL_CHARS);
+        $contacts = filter_input(INPUT_POST, "contacts", FILTER_SANITIZE_SPECIAL_CHARS);
         $subject = filter_input(INPUT_POST, "subject", FILTER_SANITIZE_SPECIAL_CHARS);
         $number = filter_input(INPUT_POST, "number", FILTER_SANITIZE_SPECIAL_CHARS);
         $place = filter_input(INPUT_POST, "place", FILTER_SANITIZE_SPECIAL_CHARS);
@@ -22,6 +25,12 @@
         $body .= "Additional details: " .$additional_info. "\r\n";
     
         mail($to, $emailSubject, $body);
+        $message_sent = true;
     }
+
+    if ($message_sent)
+        header("Location: thanks.html");
+    else
+        header("Location: appoinment.html");
 
 ?>
